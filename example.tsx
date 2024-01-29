@@ -37,7 +37,7 @@ const userEmail = "your_email@example.com";
 const userPassword = "your_password";
 
 const navigate = (path: string) => {
-  // Your navigation logic here
+  // navigation logic here
 };
 
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
