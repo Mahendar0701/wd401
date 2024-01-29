@@ -1,0 +1,31 @@
+# .github/workflows/ci-cd.yml
+
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js and TypeScript
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          typescript: 4.5.5
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run TypeScript build
+        run: npx tsc
+
+      - name: Run tests
+        run: npm test
