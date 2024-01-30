@@ -201,7 +201,7 @@ Continuous Integration (CI) and Continuous Deployment (CD) are practices in soft
 
 Using node packages like prettier, eslint, jest, husky to format the code and these ensures the code quality standards. These tests run after committing the changes to the files.
 
-### Example.tsx code required imports and statements:
+### Example.tsx code with required imports and statements:
 
 ```
 import React from "react";
