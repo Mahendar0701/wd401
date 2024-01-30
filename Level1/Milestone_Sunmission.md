@@ -4,7 +4,7 @@
 
 You've been assigned to a project that involves enhancing a critical feature for a web application. The team places a strong emphasis on the pull-request workflow, with a focus on code reviews, merge conflict resolution, and the recent integration of CI/CD. As you navigate through the development task, you encounter challenges such as feedback during code reviews and discussions on effective merge conflict resolution. The team looks to you to demonstrate your understanding of these challenges and your ability to adapt to the added complexity of CI/CD integration.
 
-### Handling Code Review Feedback:
+## Handling Code Review Feedback:
 
 Sample Code:
 ![image](https://github.com/Mahendar0701/wd401/assets/119734520/7e078855-4c4f-4d03-a682-4b5942bbb3bb)
@@ -56,17 +56,17 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 
 ![image](https://github.com/Mahendar0701/wd401/assets/119734520/c828c5cb-8df8-4f17-88c3-bce2d205145d)
 
-### Iterative Development Process
+## Iterative Development Process
 
 Iterative development involves a cyclic process of receiving feedback, making improvements, and repeating the cycle.
 
 ![image](https://github.com/Mahendar0701/wd401/assets/119734520/db302da1-ab06-400b-9288-1907d826d51d)
 
-### Resolving Merge Conflicts:
+## Resolving Merge Conflicts:
 
 A merge conflict occurs when multiple contributors make conflicting changes to the same part of a file within parallel branches, and an attempt is made to merge these branches together.
 
-## Main branch code:
+### Main branch code:
 
 ```js
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -104,7 +104,7 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 };
 ```
 
-## Code in feature branch
+### Code in feature branch
 
 ```
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -201,7 +201,7 @@ Continuous Integration (CI) and Continuous Deployment (CD) are practices in soft
 
 Using node packages like prettier, eslint, jest, husky to format the code and these ensures the code quality standards. These tests run after committing the changes to the files.
 
-## Example.tsx code required imports and statements:
+### Example.tsx code required imports and statements:
 
 ```
 import React from "react";
@@ -251,9 +251,8 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 };
 ```
 
-## .github/workflows/cicd.yml
+### .github/workflows/cicd.yml
 
-# .github/workflows/ci-cd.yml
 
 ```js
 name: CI/CD
