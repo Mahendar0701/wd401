@@ -11,6 +11,7 @@ Sample Code:
 
 Code Review:
 
+```js
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
 
@@ -47,6 +48,7 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     console.error("Sign-up failed:", error);
   }
 };
+```
 
 ![image](https://github.com/Mahendar0701/wd401/assets/119734520/eb99cf78-5fe9-4e65-b6c1-5ca9b039af9f)
 
@@ -66,6 +68,7 @@ A merge conflict occurs when multiple contributors make conflicting changes to t
 
 ## Main branch code:
 
+```js
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
 
@@ -99,9 +102,11 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     console.error("Sign-up failed:", error);
   }
 };
+```
 
 ## Code in feature branch
 
+```
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
 
@@ -135,6 +140,7 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     console.error("Sign-up failed:", error);
   }
 };
+```
 
 Merge confict occurs in the main branch when branch "branch01" is merged with the main branch then:
 
@@ -153,6 +159,7 @@ Merge confict occurs in the main branch when branch "branch01" is merged with th
 
 Final code after resolving merge conflict:
 
+```
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
 
@@ -186,6 +193,7 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     console.error("Sign-up failed:", error);
   }
 };
+```
 
 ## CI/CD Integration
 
@@ -195,6 +203,7 @@ Using node packages like prettier, eslint, jest, husky to format the code and th
 
 ## Example.tsx code required imports and statements:
 
+```
 import React from "react";
 
 const API_ENDPOINT = "your_api_endpoint_here";
@@ -240,11 +249,13 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     console.error("Sign-up failed:", error);
   }
 };
+```
 
 ## .github/workflows/cicd.yml
 
 # .github/workflows/ci-cd.yml
 
+```js
 name: CI/CD
 
 on:
@@ -275,7 +286,7 @@ jobs:
       - name: Run tests
         run: npm test
 
-
+```
 ![image](https://github.com/Mahendar0701/wd401/assets/119734520/9e953343-b75d-4174-9608-4fb7bd7a77af)
 
 
