@@ -106,7 +106,7 @@ const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 
 ### Code in feature branch
 
-```
+```js
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
 
@@ -159,7 +159,7 @@ Merge confict occurs in the main branch when branch "branch01" is merged with th
 
 Final code after resolving merge conflict:
 
-```
+```js
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
   event.preventDefault();
 
@@ -203,7 +203,7 @@ Using node packages like prettier, eslint, jest, husky to format the code and th
 
 ### Example.tsx code with required imports and statements:
 
-```
+```js
 import React from "react";
 
 const API_ENDPOINT = "your_api_endpoint_here";
