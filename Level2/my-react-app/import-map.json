@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "lodash": "/path/to/lodash.js",
+    "axios": "/path/to/axios.js"
+  }
+}
