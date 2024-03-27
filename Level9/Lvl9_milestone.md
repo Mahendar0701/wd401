@@ -2,6 +2,9 @@
 
 [repo-link](https://github.com/Mahendar0701/wd301/tree/main/smarter-tasks)
 
+[deploy-link](https://todo-manager-07.netlify.app)
+
+
 
 ## 1. Error Tracking System:
 
