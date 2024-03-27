@@ -137,7 +137,7 @@ Open sentry and view error
 ![image](https://github.com/Mahendar0701/git-learn/assets/119734520/4067c236-2cd3-4229-a1fa-146befee3ed8)
 
 
-## Debugger Capability:
+## 2. Debugger Capability:
 
 ### Introduction
 Debugging is essential for developers to identify and resolve code issues effectively. Different techniques and tools, such as console logging, breakpoints, and debugger statements, aid in this process.
