@@ -89,7 +89,7 @@ export default defineConfig({
     // Put the Sentry vite plugin after all other plugins
     sentryVitePlugin({
       authToken: process.env.SENTRY_AUTH_TOKEN,
-      org: "rishith",
+      org: "chaitanya-bharathi-institut-cd",
       project: "wd301",
     }),
   ],
